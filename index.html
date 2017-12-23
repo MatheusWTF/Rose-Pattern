@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Rose Patterns</title>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="grid">
+        <div class="col8"><h2>Rose Patterns</h2></div>
+        <div class="col2"><a href="https://github.com/MatheusWTF/Rose-Pattern">Github</a></div>
+      </div>
+    </div>
+  </nav>
+  <section class="container mt">
+    <div class="grid">
+      <div class="col3">
+        <div class="input-box">
+          <div class="form-group">
+            <label for="n">N </label>
+            <input type="number" name="n" id="n" value="2">
+          </div>
+          <div class="form-group">
+            <label for="d">D </label>
+            <input type="number" name="d" id="d" value="1">
+          </div>
+        </div>
+        <a href="#" id="saveBtn">Save Image</a>
+      </div>
+      <div class="col9">
+        <div class="center"><canvas id="rose-pattern" width="500px" height="500px"></canvas></div>
+      </div>
+    </div>
+  </section>
+  <script src="script/main.js"></script>
+</body>
+</html>
